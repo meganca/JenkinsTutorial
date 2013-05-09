@@ -21,7 +21,6 @@ public class SampleUnitTest extends ActivityInstrumentationTestCase2<MainActivit
 	public void testMessageTextBoxDisplaysCorrectHint() {
 		assertNotNull(getActivity().findViewById(com.example.myfirstapp.R.id.edit_message));
 		EditText editText = (EditText) getActivity().findViewById(com.example.myfirstapp.R.id.edit_message);
-		//editText.getHint().equals("Enter a message");
-		assertTrue(false);
+		editText.getHint().equals("Enter a message");
 	}
 }
