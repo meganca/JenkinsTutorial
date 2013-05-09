@@ -1,7 +1,0 @@
-package com.example.myfirstapp.test;
-
-import android.test.ActivityInstrumentationTestCase2;
-
-public class SampleUnitTest extends ActivityInstrumentationTestCase2<T> {
-
-}
